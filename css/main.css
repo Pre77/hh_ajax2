@@ -1,0 +1,37 @@
+.wrapper {
+    height: 100%;
+    width: 100wh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#dragBlock {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.dragProto {
+    width: 100px;
+    height:100px;
+}
+
+#savePos {
+
+    left: 3%;
+    background-color: aqua;
+}
+
+#saveCell {
+    right: 3%;
+    background-color: brown;
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    height: 300px;
+    min-width: 600px;
+    width: 45%;
+}
