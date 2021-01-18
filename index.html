@@ -11,9 +11,9 @@
 
 <body>
     <div class="wrapper">
-        <div id="dragBlock" class="dragProto">Потяни за меня</div>
-        <div id="savePos" class="container">Сохраню положение</div>
-        <div id="saveCell" class="container">Сохраню в ячейку</div>
+        <div id="dragBlock" class="dragProto"  draggable="true" alt="" ondragstart="drag(event)">Потяни за меня</div>
+        <div id="savePos" class="container" ondrop="dropPos(event)" ondragover="allowDrop(event)">Сохраню положение</div>
+        <div id="saveCell" class="container" ondrop="dropCell(event)" ondragover="allowDrop(event)"></div>
     </div>
 </body>
 
