@@ -6,15 +6,15 @@
     <title>JS AJAX - hw2 "drag'n'drop"</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/bundle.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <div id="dragBlock" class="dragProto"  draggable="true" alt="" ondragstart="drag(event)">Потяни за меня</div>
-        <div id="savePos" class="container" ondrop="dropPos(event)" ondragover="allowDrop(event)">Сохраню положение</div>
+        <div id="dragBlock" class="dragProto"  draggable="true" alt="" ondragstart="drag(event)"></div>
+        <div id="savePos" class="container" ondrop="dropPos(event)" ondragover="allowDrop(event)"></div>
         <div id="saveCell" class="container" ondrop="dropCell(event)" ondragover="allowDrop(event)"></div>
     </div>
 </body>
-
+<!-- Загрузим скрипт после загрузки документа, чтобы работали константы-->
+<script src="./js/bundle.js"></script>
 </html>

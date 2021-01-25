@@ -10,28 +10,49 @@
     top: 20px;
     left: 45%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/drag-drop-icon.svg');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: tan;
+    border-radius: 10px;
 }
 .dragProto {
     width: 100px;
     height:100px;
-    background-color: cornflowerblue;
+
 }
 .cellPos {
+    display: flex;
+    align-items: center;
     position: absolute;
 }
 #savePos {
-
+    overflow: hidden;
+    display: flex;
+    align-items: center;
     left: 3%;
-    background-color: aqua;
+    background-color: lightgreen;
+    background-image: url('../images/toPos.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 #saveCell {
     right: 3%;
-    background-color: brown;
+    background-color: lightpink;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     content: 'Сохраню в ячейку';
+    background-image: url('../images/toCell.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: auto;
 }
 
 .container {
